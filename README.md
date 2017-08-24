@@ -17,7 +17,7 @@ Options:
   -add:    Add local package(s) to configuration file
   -remove: Remove local package(s) from configuration file
   -list:   List all configured local packages
-  -up:     Vendoring (copy) configured local packages to current vendor dicrectory
+  -up:     Vendoring (copy) configured local packages to current vendor directory
   -clear:  Remove all configured local packages from configuration file
   
 Examples:

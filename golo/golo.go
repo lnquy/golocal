@@ -110,7 +110,7 @@ func copyDir(src string, dst string) {
 	}
 
 	f := fileutils.New()
-	if err :=f.Copy(parentDir(dst), src); err!= nil {
+	if err := f.Copy(parentDir(dst), src); err != nil {
 		log.Panicf("Failed to copy %s directory to %s", src, dst)
 	}
 }
